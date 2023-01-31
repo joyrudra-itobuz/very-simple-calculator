@@ -1,26 +1,53 @@
 /* By Athlon Front-End Team */
 
 /* Core variables */
-@import 'base/vars';
+@import "base/vars";
 
 /* CSS Reset */
-@import 'base/reset';
+@import "base/reset";
 
 /* CSS print */
-@import 'base/print';
+@import "base/print";
 
 /* Fonts */
-@import 'base/fonts';
+@import "base/fonts";
 
 /* Mixins, helpers and functions */
-@import 'base/mixins';
+@import "base/mixins";
 
 /* Vendor */
 
 /* Components */
 
 /* Browser specific styles */
-@import 'dirty/hacks';
+@import "dirty/hacks";
 
 /* Demo Page styles */
-@import 'demo';
+@import "demo";
+
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+
+body {
+  background-color: #ff8a80;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+h1 {
+  height: 5rem;
+  padding-top: 1.3rem;
+}
+
+span {
+  text-align: center;
+}
